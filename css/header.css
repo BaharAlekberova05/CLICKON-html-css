@@ -1,0 +1,240 @@
+.header-div {
+    position: relative;
+    background: var(--gray-900);
+}
+
+.ad-sec {
+    height: 80px;
+    background-color: var(--gray-900);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.black-div {
+    width: 74px;
+    height: 40px;
+    padding: 6px 10px;
+    transform: rotate(-3deg);
+    background-color: #F3DE6D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--gray-900);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.black-div + span {
+    color: white;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+.center {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.center span:nth-child(1) {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.center span:nth-child(2) {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: var(--warning-500);
+}
+
+.center span:nth-child(3) {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: var(--warning-500);
+    padding: 0 24px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.right span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 48px;
+    color: var(--gray-900);
+}
+
+.close-btn {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--gray-800);
+    color: white; 
+    border-radius: 2px;
+    padding: 8px;
+    cursor: pointer;
+    position: absolute;
+    top: 18px;
+    right: 24px;
+}
+
+/* SEARCH DIV */
+.search-container {
+    background-color: var(--secondary-700);
+}
+
+.search-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #407CA4;
+}
+
+.info p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.langs {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.search {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    width: 500px;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    padding: 14px 20px;
+}
+
+input::placeholder {
+    color: var(--gray-500);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.card-info {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.card-item-num {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -14px;
+    left: 6px;
+    background: #fff;
+    color: var(--secondary-700);
+    border-radius: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* ALL CATEGORY SECTION */
+.all-category {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.all-cat-left {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.all-cat-left button:nth-child(1) {
+    cursor: pointer;
+    background: #F2F4F5;
+    border-radius: 2px;
+    border: none;
+    padding: 14px 24px;
+    color: var(--gray-900);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.all-cat-left button:nth-child(2), .all-cat-left button:nth-child(3), .all-cat-left button:nth-child(4), .all-cat-left button:nth-child(5) {
+    background-color: transparent;
+    border: none;
+    color: var(--gray-600);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.all-cat-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.number {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--gray-900);
+}

@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  background: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000;
+}
+
+/* Reklam bölümü */
+.ad-sec {
+  height: 80px;
+  background-color: var(--gray-900);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Sol bölge */
+.ad-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ad-black {
+  width: 74px;
+  height: 40px;
+  padding: 6px 10px;
+  transform: rotate(-3deg);
+  background-color: #f3de6d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-900);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.ad-left span {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+/* Merkez bölge */
+.ad-center {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ad-center span:nth-child(1) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+}
+
+.ad-center span:nth-child(2) {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  color: var(--warning-500);
+}
+
+.ad-center span:nth-child(3) {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+
+/* Sağ bölge (Buton) */
+.ad-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: var(--warning-500);
+  padding: 0 24px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.ad-right span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 48px;
+  color: var(--gray-900);
+}

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centered Layout with Flexbox</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+      }
+
+      .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .site-header {
+        display: flex; /* Flexbox'u aktif ettik */
+        flex-direction: column; /* Flex yönü dikeyde olacak */
+        align-items: center; /* İçerikleri yatayda ortaladık */
+        background-color: #333;
+        color: white;
+        padding: 20px 0;
+      }
+
+      .site-header nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center; /* Menü öğelerini yatayda ortaladık */
+        gap: 20px;
+      }
+
+      .site-header nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      .site-main {
+        background-color: #f4f4f4;
+        padding: 40px 0;
+        text-align: center;
+      }
+
+      .site-footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+
+      @media (max-width: 1024px) {
+        .container {
+          max-width: 90%;
+          padding: 10px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>My Website</h1>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <div class="container">
+        <h2>Welcome to My Website</h2>
+        <p>
+          This is the main content of the page. Everything is centered using
+          margin: 0 auto.
+        </p>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2024 My Website. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
