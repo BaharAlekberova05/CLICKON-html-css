@@ -1,3 +1,213 @@
 .items-and-info {
-    
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.items-left {
+  background: var(--gray-50);
+  border-radius: 6px;
+  display: flex;
+  gap: 36px;
+  padding: 56px;
+}
+
+.items-left .left-of-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-of-left {
+  width: 356px;
+}
+
+.items-left button {
+  width: 190px;
+  background: var(--primary-500);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 22px 32px;
+}
+
+.the-best-place {
+  color: var(--secondary-600);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 4px;
+}
+
+.xbox {
+  color: var(--gray-900);
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+
+.xbox-info {
+  color: var(--gray-700);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.xbox-slider {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 125px;
+}
+
+.xbox-slider div {
+  width: 10px;
+  height: 10px;
+  background: var(--gray-900);
+  border-radius: 900px;
+}
+
+.xbox-price {
+  width: 100px;
+  height: 100px;
+  border-radius: 900px;
+  background: var(--secondary-500);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 4px solid #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.items-right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.items-r-top {
+  display: flex;
+  align-items: center;
+  background: var(--gray-900);
+  border-radius: 6px;
+  padding-top: 45px;
+}
+
+.items-r-top div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 45px 40px;
+}
+
+.sum-sales {
+  color: var(--warning-500);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  width: 160px;
+  margin-bottom: 8px;
+}
+
+.sum-sales + p {
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+  height: 32px;
+}
+
+.items-r-bottom {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  background: var(--gray-50);
+  border-radius: 6px;
+}
+
+.xiaomi-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.xiaomi-info p:nth-child(1) {
+  color: var(--gray-900);
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  width: 172px;
+  margin-bottom: 12px;
+}
+
+.xiaomi-info p:nth-child(2) {
+  color: var(--secondary-500);
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.shop-now-btn {
+  background: var(--primary-500);
+  border: none;
+  border-radius: 2px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.shop-now-btn span {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 48px;
+}
+
+.items-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border: 1px solid #e4e7e9;
+  border-radius: 6px;
+  margin-bottom: 72px;
+}
+
+.info-box {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  width: 230px;
+}
+
+.info-box div p:nth-child(1) {
+  color: var(--gray-900);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.info-box div p:nth-child(2) {
+  color: var(--gray-600);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
 }
